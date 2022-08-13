@@ -29,6 +29,6 @@ jobs:
       uses: ftnext/action-push-ghpages@v1.0.0
       with:
         # Path to the directory where the static assets are located.
-        build_dir: /home/runner/work/himgk/himgk/himgk/output
+        build_dir: /home/runner/work/gatsby-garden/gatsby-garden/public
         # Create github token in repo/settings/secrets/actions with name GithubToken
         github_token: ${{ secrets.GithubToken }}
